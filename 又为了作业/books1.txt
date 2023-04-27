@@ -1,0 +1,6 @@
+Romeo_and_Juliet 16.00 Shakespeare 2 9
+Pride_and_Prejudice 16.00 Austen 3 9
+Uncle_Tom's_Cabin 16.80 Stowe 4 9
+A_Doll's_House 41.00 Ibsen 5 9
+Jane_Eyre 48.80 Bronte 6 9
+Adventure_of_Tom_Sawyer 25.00 Twain 7 9
