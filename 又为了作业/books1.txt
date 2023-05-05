@@ -1,0 +1,5 @@
+Romeo_and_Juliet 16.00 Shakespeare 2 9 0 0
+Jane_Eyre 48.80 Bronte 6 9 0 0
+Adventure_of_Tom_Sawyer 25.00 Twain 7 7 0 0
+Frankenstein 28.00 Shelley 7 8 0 0
+Don_Quixote 32.00 Cervantes 7 9 0 0

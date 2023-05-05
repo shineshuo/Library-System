@@ -1,0 +1,13 @@
+﻿  menu.cpp
+C:\Users\33565\source\repos\又为了作业\又为了作业\register.h(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(112,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(124,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(205,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(253,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(296,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(318,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(354,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(378,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(389,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(408,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  又为了作业.vcxproj -> C:\Users\33565\source\repos\又为了作业\x64\Debug\又为了作业.exe

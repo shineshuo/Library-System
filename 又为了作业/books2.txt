@@ -1,0 +1,5 @@
+Uncle_Tom's_Cabin 16.80 Stowe 4 9 0 0
+The_Odyssey 15.70 Homer 2 9 0 0
+The_Iliad 54.10 Homer 5 9 0 0
+Nineteen_Eighty-Four 15.50 Orwell 6 9 0 0
+Beloved 39.20 Morrison 7 9 0 0
