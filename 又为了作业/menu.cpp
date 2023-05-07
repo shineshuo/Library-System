@@ -20,6 +20,13 @@ void mainmenu_user(library_mag* lm, floor_* lib_col, user* User);
 int flag_select;
 
 bool flag;//登录类型判断标志   TRUE为有效登录
+//////////////////////////////////////////////////////////////////////////////
+
+//管理员密码默认abcd 
+//请确保使用多字节字符集，SDL检查关闭，（一般是不用改的）
+
+/// ///////////////////////////////////////////////////////////////////////////
+
 int main()
 {
 	while (1)
@@ -34,13 +41,13 @@ int main()
 		while (1)
 		{
 			
-			if (flag_select == 1)
+			if (flag_select == 1)//管理端
 			{
 				cout << "选择前往的楼层,按0退出系统" << endl;
 				cin >> select;
 				switch (select)
 				{
-				case 1:
+				case 1://申请内存 
 					lm = new library_mag(1);
 					lib_col = new floor1(1, 2, 1);
 					break;
@@ -59,7 +66,7 @@ int main()
 				lm->bookread();
 				mainmenu(lm, lib_col);
 			}
-			else if (flag_select == 2)
+			else if (flag_select == 2)//用户端
 			{
 				cout << "选择前往的楼层,按0退出系统" << endl;
 				cin >> select;
@@ -196,7 +203,7 @@ void mainmenu(library_mag *lm, floor_* lib_col)//控制端菜单
 	printf("|\t\t\t  图书管理系统  \t\t\t|\n");
 	printf("|\t\t\t 1.查找图书信息 \t\t\t|\n");
 	printf("|\t\t\t 2.修改图书信息 \t\t\t|\n");
-	printf("|\t\t\t   0.退出   \t\t\t|\n");
+	printf("|\t\t\t     0.退出     \t\t\t|\n");
 	printf("----------------------------------------------------------------\n");
 	printf("输入数字选择功能(0~3)\n");
 	
@@ -270,7 +277,7 @@ void mainmenu_user(library_mag* lm, floor_* lib_col,user*User)//用户端菜单
 }
 
 
-void menu(int a, library_mag *lm, floor_* lib_col)
+void menu(int a, library_mag *lm, floor_* lib_col)//控制端二级菜单
 {
 	int flag = 1;
 	int x;
@@ -328,7 +335,7 @@ void menu(int a, library_mag *lm, floor_* lib_col)
 }
 
 
-void menu_user(int a, library_mag* lm, floor_* lib_col,user* User)
+void menu_user(int a, library_mag* lm, floor_* lib_col,user* User)//用户端二级菜单
 {
 	int flag = 1;
 	int x;
@@ -355,7 +362,7 @@ void menu_user(int a, library_mag* lm, floor_* lib_col,user* User)
 			getchar();
 			if (x == 0)flag = 0;
 			else if (x == 1)lm->part1(1);
-			else if (x == 2)lm->part1(2);
+			else if (x == 2)lm->part1 (2);
 			else if (x == 3)lm->part1(3);
 		
 			else printf("输入错误，请重新输入\n");

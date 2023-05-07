@@ -1,8 +1,6 @@
 ﻿#include"serchroad.h"
 #include<graphics.h>
 //这是寻路的算f法
-//通过算法寻路，找出最佳路径
-//完成人：程京涛
 IMAGE book_image;
 bool findend = false;
 int count_ = 0;

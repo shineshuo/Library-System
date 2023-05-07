@@ -17,7 +17,7 @@ public:
 	string name_;
 	int init_x;//人初始位置
 	int init_y;
-	int flag_f;
+	int flag_f;//编号
 	int map[11][13];
 	virtual void showinfo() = 0;//介绍
 	virtual void init() = 0;//位置初始化

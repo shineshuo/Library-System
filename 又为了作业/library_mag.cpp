@@ -199,7 +199,7 @@ void library_mag::part2(int a, floor_* p)//修改信息
 	printf("请继续选择\n");
 }
 
-int library_mag::searchname_(char* x)//
+int library_mag::searchname_(char* x)// 按书名查找
 {
 	int select;
 	printf("正在搜索中\n");
@@ -321,7 +321,7 @@ void library_mag::add(int a,floor_* p)//添加
 	int x_=-1;
 	int y_;
 	int flag_ = 1;
-	if (0 > book->price || book->price < 100000)
+	if (0 > book->price && book->price > 100000)
 	{
 		cout << "价格输入不合理，退出" << endl;
 		delete book;
@@ -364,7 +364,7 @@ void library_mag::add(int a,floor_* p)//添加
 	this->m_booknum = newsize;//指向新空间
 	this->bookarray = newspace;
 	////////////////////////////////////////
-	printf("添加完成\n");
+	printf("添加完成(退出修改界面后地图才会显示)\n");
 		system("pause");
 	}
 	else {
@@ -399,7 +399,7 @@ void library_mag::del(int a)//删除
 		{
 			bookarray[i] = bookarray[i + 1];
 		}
-		printf("删除完成\n");
+		printf("删除完成(退出修改界面后地图才会显示)\n");
 	}
 	system("pause");
 }
@@ -433,7 +433,7 @@ void library_mag::mod(int a,floor_* p)//修改
 		getchar();
 		scanf("%lf %s", &book->price, book->writer);
 		getchar();
-		if (0 > book->price || book->price < 100000)
+		if (0 > book->price || book->price > 100000)
 		{
 			cout << "价格输入不合理，退出" << endl;
 			system("pause");
@@ -453,6 +453,8 @@ void library_mag::mod(int a,floor_* p)//修改
 			cin >> y_;
 			y_ -= 1;
 			x_ -= 1;
+			if (bookarray[flag]->x != x_ && bookarray[i]->y != y_)
+			{
 			if (p->map[y_][x_] != 0)
 			{
 				cout << "该位置上存在障碍" << endl;
@@ -463,6 +465,8 @@ void library_mag::mod(int a,floor_* p)//修改
 				cout << "超出范围" << endl;
 				flag_ = 0;
 			}
+			}
+			
 		} while (p->map[y_][x_]!=0&&flag_!=1);
 		if (flag_ == 1)
 		{

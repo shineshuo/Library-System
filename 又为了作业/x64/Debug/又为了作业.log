@@ -1,13 +1,20 @@
-﻿  menu.cpp
-C:\Users\33565\source\repos\又为了作业\又为了作业\register.h(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(112,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(124,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(205,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(253,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(296,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(318,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(354,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(378,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(389,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\33565\source\repos\又为了作业\又为了作业\menu.cpp(408,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  library_mag.cpp
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(13,7): warning C4101: “did”: 未引用的局部变量
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(66,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(78,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(107,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(111,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(207,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(211,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(267,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(311,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(319,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(307,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(384,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(415,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(427,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(434,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(487,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(499,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\33565\source\repos\又为了作业\又为了作业\library_mag.cpp(504,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   又为了作业.vcxproj -> C:\Users\33565\source\repos\又为了作业\x64\Debug\又为了作业.exe
